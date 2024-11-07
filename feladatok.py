@@ -25,3 +25,7 @@ def feladat2():
         o += 1
     print(f"A számok között {harommal}db 3-mal osztható van!")
 
+def feladat3(text,N):
+    if len(text) < N:
+        print(f"Nincs {N}. karakter!")
+    print(text[(N-1)]*3)
