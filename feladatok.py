@@ -7,7 +7,6 @@ def feladat1():
     else:
         while szam1 % 2 != 0:
             szam1 = int(input("Ez nem páros! PÁROS számot kérek! "))
-        return szam1
 
 def feladat2():
     szamok = []
@@ -26,6 +25,16 @@ def feladat2():
     print(f"A számok között {harommal}db 3-mal osztható van!")
 
 def feladat3(text,N):
+    text = text.upper()
     if len(text) < N:
         print(f"Nincs {N}. karakter!")
     print(text[(N-1)]*3)
+
+def feladat4():
+    nevek = ""
+    nevekszam = 0
+    while nevek != "@":
+        nevek = str(input("Kérek neveket: "))
+        nevekszam += 1
+    return nevekszam
+
