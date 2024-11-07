@@ -29,10 +29,10 @@ Szimuláljuk a kő-papír-olló játékot.
 Írj eljárást, amiben: 
 A felhasználótól bekérjük a tippjét, ami kő/papír/olló lehet. Alakítsd át csupa kisbetűssé a szöveget, majd tárold el a felhasznalo_tippje változóban. 
 Ezután a gép generál egy egész számot [1,3] között.  1- kő, 2- papír – 3 olló. Tárold el a gep_tippje változóban
-Ezután írd ki, hogy ki nyert!
 
+### Ezután írd ki, hogy ki nyert!
 	Ha a két szó ugyanaz, írja ki, hogy Döntetlen. 
-	Egyéb esetben azt írja ki, aki győzött!
+    Egyéb esetben azt írja ki, aki győzött!
 
 ***Konzol eredmények: ***
 ![Konzol](futasi_eredmenyek.png)
