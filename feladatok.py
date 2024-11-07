@@ -14,7 +14,7 @@ def feladat2():
     o = 0
     harommal = 0
     while i < 13:
-        szam = int(random.random()*151)+10
+        szam = int(random.random()*141)+10
         szamok.append(szam)
         i += 1
     print(szamok)
@@ -28,7 +28,7 @@ def feladat3(text,N):
     text = text.upper()
     if len(text) < N:
         print(f"Nincs {N}. karakter!")
-    print(text[(N-1)]*3)
+    print(text[(N)]*3)
 
 def feladat4():
     nevek = ""
