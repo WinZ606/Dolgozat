@@ -34,4 +34,4 @@ Ezután írd ki, hogy ki nyert!
 	Ha a két szó ugyanaz, írja ki, hogy Döntetlen. 
 	Egyéb esetben azt írja ki, aki győzött!
 
-![Terminal] (futasi_eredmenyek.png)
+![Konzol:] (./futasi_eredmenyek.png)
