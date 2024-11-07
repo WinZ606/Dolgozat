@@ -38,3 +38,14 @@ def feladat4():
         nevekszam += 1
     return nevekszam
 
+def feladat5():
+    felhasznalo_tippje = str(input("Kő/papír/olló: "))
+    felhasznalo_tippje = felhasznalo_tippje.lower()
+    gep_tippje = int(random.random()*3)+1
+    print(gep_tippje)
+    if (felhasznalo_tippje == "kő" and gep_tippje == 1) or (felhasznalo_tippje == "papír" and gep_tippje == 2) or (felhasznalo_tippje == "olló") and (gep_tippje == 3):
+        print("Döntetlen!")
+    elif (felhasznalo_tippje == "kő" and gep_tippje == 2) or (felhasznalo_tippje == "papír" and gep_tippje == 3) or (felhasznalo_tippje == "olló" and gep_tippje == 1):
+        print("A gép nyert!")
+    else:
+        print("A felhasználó nyert!")
